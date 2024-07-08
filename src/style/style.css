@@ -1,0 +1,17 @@
+@import url('theme.css');
+
+.header_button{
+    background-color: var(--yellow);
+}
+.header_button span{
+    color: var(--lightBlue);
+}
+.text{
+    font-size: var(--fontSize);
+}
+
+.image_section{
+    background-image: url("../../assets/images/header2.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover
+ }
