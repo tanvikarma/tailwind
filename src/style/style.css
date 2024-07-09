@@ -3,11 +3,14 @@
 .header_button{
     background-color: var(--yellow);
 }
+
 .header_button span{
     color: var(--lightBlue);
 }
+
 .text{
     font-size: var(--fontSize);
+    /* color: var(--blackForText); */
 }
 
 .image_section{
@@ -15,3 +18,12 @@
     background-repeat: no-repeat;
     background-size: cover
  }
+
+ .get_started_right{
+    background-image: url("../../assets/images/footer-cards/footer1.png");
+ }
+ 
+ .get_started_left{
+    background-image: url("../../assets/images/footer-cards/footer2.png");
+ }
+ 

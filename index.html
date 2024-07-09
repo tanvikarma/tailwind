@@ -6,37 +6,58 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="src/style/theme.css">
   <link rel="stylesheet" href="src/style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <!-- <link href="./output.css" rel="stylesheet"> -->
-  </head>
+</head>
 <body>
-  <header class="header">
+  <header class="header ">
     <div class=" flex justify-between px-4 py-2">
         <div><img src="assets/images/drivelah-logo.png" alt="" class="w-24"></div>
         <div><button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button></div>
     </div>
   </header>
 
-  <section class="image_section mx-4 rounded-lg ">
-    <div class="max-w-lg m-auto h-52 flex flex-col text-center text-white">
-      <div class="">
-        <h1 class="text-3xl mb-2"><b><span class="text-amber-300">Kia ora</span>, New Zealand</b></h1>
-        <div class="mx-8 text"><b><p class="mx-24">Make money sharing your car, or save money renting a car on Drive mate. Up to 30% cheaper than traditional car rental companies.</p></b>
-          <div></div>
+  <section>
+    <div class="image_section mx-4 rounded-lg bg-amber-300 ">
+      <div class="max-w-lg m-auto h-52 flex flex-col text-center text-white relative top-20">
+        <div class="">
+          <h1 class="text-3xl mb-2"><b><span class="text-amber-300">Kia ora</span>, New Zealand</b></h1>
+          <div class="mx-8 text"><b><p class="mx-0 sm:mx:16 md:mx-16">Make money sharing your car, or save money renting a car on Drive mate. Up to 30% cheaper than traditional car rental companies.</p></b>
+            <div></div>
+          </div>
+        </div>
+        <div class="form_section h-16 w-9/12 rounded-t-lg bg-slate-100 m-auto mt-4">
+          <form action="" class="p-4">  
+            <input class="text rounded-full p-2 md:w-64 w-24" type="text" placeholder="Enter your email">
+            <button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button>
+          </form>
+          <p class="bg-cyan-500 text rounded-b-lg">Our first 500 mates get a $20 credit on their account. Signup Now</p>
         </div>
       </div>
-      <div class="form_section max-w-md h-16 rounded-t-lg bg-slate-100 m-auto mt-4">
-        <form action="" class="p-4 ">  
-          <input class="text rounded-full p-2 w-42" type="text" placeholder="Enter your email">
-          <button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button>
-        </form>
-        <p class="bg-cyan-500 text rounded-b-lg">Our first 500 mates get a $20 credit on their account. Signup Now</p>
+    </div>
+    <div class="header_logo_section relative md:block flex">
+     <div class="grid md:grid-cols-3 grid-cols-1 gap-4 text md:w-96 mt-10 m-auto mt-24">
+      <div>
+        <span>Approved by</span>
+        <img src="assets/images/feature-logos/image 12.png" alt="#" class="w-16">
       </div>
+      <div >
+        <span >Rated 4.7/5.0 in </span>
+        <img src="assets/images/feature-logos/image 12.png" alt="#" class="w-16">
+      </div>
+      <div>
+        <span >Insured by</span>
+        <img src="assets/images/feature-logos/image 12.png" alt="" class="w-16">
+      </div>
+     </div>
     </div>
   </section>
 
-  <section class="about_us my-8  text-center text max-w-80 leading-4 bg-slate-100">
-    <div class="about_us_content ">
-        <div class="about_heading ">
+  <!-- about us section -->
+  <section class="about_us bg-slate-100 pb-10">
+    <div class="my-8 m-auto mt-24 text-center text max-w-80 ">
+      <div class="about_us_content mb-4 pt-5">
+        <div class="about_heading">
           <h4 class="text-xl font-bold my-4">Ko tâtou tènei. This is us</h4>
           <p class="about_us_text">Drive Lah in Singapore, Malaysia, Drive mate in Australia and now
               Aotearoa New Zealand, coming to Auckland 2024.</p>
@@ -47,9 +68,9 @@
               entire journey, allowing you to browse and choose from our top rented
               vehicles.</p>
         </div>
-        <div class="about_logo my-4 bg-white">
+        <div class="about_logo mt-5 p-2 rounded bg-white">
           <p class="about_us_text">Check us out here to learn more about us</p>
-          <div class="check_us_logo flex">
+          <div class="check_us_logo flex justify-between">
               <div class="drive_logo_img">
                   <img src="assets/images/drivelah-logo.png" class="w-24" alt="image not found">
                   <span>Singapore</span>
@@ -61,20 +82,154 @@
           </div>
         </div>
     </div>
-    <div class="feature_logo w-80 bg-white">
+    </div>
+    <div class="feature_logo mx-4 bg-white m-auto text-center text p-3">
       <p class="wrappertext">Featured on</p>
-      <ul class="feature-logos flex justify-between" id="logos">
-          <li><img class="logo" src="assets/images/feature-logos/image 12.png"  alt="image not found"></li>
-          <li><img class="logo" src="assets/images/feature-logos//image 16.png"  alt="image not found"></li>
-          <li><img class="logo" src="assets/images/feature-logos/image 102.png"  alt="image not found"></li>
-          <li><img class="logo" src="assets/images/feature-logos/zaobao-logo-removebg-preview 1.png"  alt="image not found"></li>
-      </ul>
+      <div class="w-6/12  m-auto mt-2">
+          <ul class="feature-logos grid grid-cols-4 gap-4 ">
+            <li><img class="w-20" src="assets/images/feature-logos/image 12.png"  alt="image not found"></li>
+            <li><img class="w-16" src="assets/images/feature-logos/image 102.png"  alt="image not found"></li>
+            <li><img class="w-16" src="assets/images/feature-logos/zaobao-logo-removebg-preview 1.png"  alt="image not found"></li>
+            <li><img class="w-20" src="assets/images/feature-logos//image 16.png"  alt="image not found"></li>
+          </ul>
+      </div>
     </div>
   </section>
+  <!-- about us section -->
 
+  <!-- signup section -->
+  <section class="signup text-white">
+    <div class="container">
+      <div class="bg-cyan-500 md:h-48 h-auto">
+       <div class="grid md:grid-cols-2 md:gap-x-6 grid-cols-1">
+        <div class="">
+          <div class="pt-6 ps-8">
+            <b><h1>Skip the car rental counter,</h1>
+              <h1> Hit The Road.</h1>
+             </b>
+             <div class="text m-2">
+               <ul class="grid md:grid-cols-2 md:gap-x-8 ms:gap-y-1 md:my-3 grid-cols-1">
+                 <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i>100s of cars to choose from</li>
+                 <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i>Safe, sanitised and fully insured</li>
+                 <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i> Fully flexible. Anytime, Anyday.</li>
+                 <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i>24/7 Customer Support</li>
+                 <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i>30-40% more affordable</li>
+                 <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i>Free cancellation</li>
+               </ul>
+             </div>
+             <div><button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button></div>
+     
+          </div>
+         </div>
+         <div class="md:absolute md:right-0 ">
+           <img class="w-64 max-h-48	" src="assets/images/signup-image.png" alt="">
+         </div>
+       </div>
+      </div>
+    </div>
+  </section>
+  <!-- signup section -->
 
+  <!-- drivemate section -->
+  <section class="drive_mate mx-4">
+    <div class="container m-auto">
+      <div class="text-center my-7">
+        <h1 class="mb-2"><b>#LoveDrivemate</b></h1>
+        <p class="text">See what our mates across the ditch have to say!</p>
+      </div>
   
+        <div class="grid md:grid-cols-4 grid-cols-1">
+          <div class=" m-auto w-36 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489.png" alt="" />
+              </a>
+              <div class="text-white p-2 text-center text">
+                <p class="text mb-3 font-normal">Drive lah is a safe, easy and convenient platform in Singapore. Thanks Drive lah!</p>
+                <div>
+                  <p>Ben Chan</p>
+                  <div class="text-amber-300">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="m-auto w-36 relative top-6 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489-1.png" alt="" />
+              </a>
+              <div class="text-white p-2 text-center text">
+                <p class="text mb-3 font-normal">Convenient way to rent car with insurance covered. Hassle free!</p>
+                <div>
+                  <p>Jonathan Lai</p>
+                  <div class="text-amber-300">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                </div>
+          </div>
+          <div class="m-auto w-36 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+              <a href="#">
+                  <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489-2.png" alt="" />
+              </a>
+              <div class="text-white p-2 text-center text">
+                  <p class="text mb-3 font-normal">The Drive lah team makes the experience of car-sharing relatively stress-free.</p>
+                  <div>
+                    <p>Shareen Tan</p>
+                    <div class="text-amber-300">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="m-auto w-36 relative top-6 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <a href="#">
+                <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489-3.png" alt="" />
+            </a>
+            <div class="text-white p-2 text-center text">
+                  <p class=" mb-3">Drive lah is committed on building trust within the community it serves.</p>
+                  <div>
+                    <p>Even Lim</p>
+                    <div class="text text-amber-300">
+                      <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+          </div>
+       </div>
+    </div>
+  </section>
+  <!-- drivemate section -->
 
+  <!-- get started -->
+   <div class="container m-auto">
+    <section class="get_started mt-20 ">
+      <div class="grid md:grid-cols-2 grid-cols-1 text-white ">
+        <div class="m-auto get_started_right h-48 min-w-80 w-2/4 bg-no-repeat bg-cover rounded-md">
+          <div class="mt-4 mx-3">
+            <h5><b>Rent a car</b></h5>
+            <p class="text my-3 max-w-48">Down the street or across the country, find the perfect vehicle for your next adventure.</p>
+            <button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button>
+          </div>
+        </div>
+        <div class="m-auto get_started_left h-48 min-w-80 bg-no-repeat bg-cover rounded-md">
+          <div class="md:mt-4 md:mx-3 mt-4">
+            <h5><b>List your car</b></h5>
+          <p class="text max-w-48 my-3">Accelerate your entrepreneurship and start building a small car sharing business on Drive lah</p>
+          <button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button>
+          </div>
+        </div>
+      </div>
+     </section>
+   </div>
+  <!-- get started -->
 
+  <!-- footer -->
+   <footer>
+      <div class="flex md:px-8 md:py-2 md:mt-3 bg-cyan-500 relative bottom-0">
+          <div><img src="assets/images/1.png" alt="" class="w-16 m-2"></div>
+          <div class="pt-1"><span class="text text-white "><i class="fa-regular fa-copyright me-1"></i>Drivemate 2024</span></div>
+      </div>
+   </footer>
+  <!-- footer -->
 </body>
 </html>
