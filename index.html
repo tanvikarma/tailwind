@@ -10,7 +10,7 @@
   <!-- <link href="./output.css" rel="stylesheet"> -->
 </head>
 <body>
-  <header class="header ">
+  <header class="header">
     <div class=" flex justify-between px-4 py-2">
         <div><img src="assets/images/drivelah-logo.png" alt="" class="w-24"></div>
         <div><button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button></div>
@@ -18,38 +18,38 @@
   </header>
 
   <section>
-    <div class="image_section mx-4 rounded-lg bg-amber-300 ">
-      <div class="max-w-lg m-auto h-52 flex flex-col text-center text-white relative top-20">
-        <div class="">
-          <h1 class="text-3xl mb-2"><b><span class="text-amber-300">Kia ora</span>, New Zealand</b></h1>
-          <div class="mx-8 text"><b><p class="mx-0 sm:mx:16 md:mx-16">Make money sharing your car, or save money renting a car on Drive mate. Up to 30% cheaper than traditional car rental companies.</p></b>
-            <div></div>
+    <div class="relative rounded-lg">
+      <div class="image_section mx-4  bg-no-repeat rounded-lg bg-cover rounded-lg relative before:rounded-lg before:absolute before:left-0 before:right-0 before:top-0 before:h-full before:w-full before:bg-black before:opacity-30" style="background-image: url('../../assets/images/header2.jpg');">
+        <div class="relative max-w-lg m-auto h-52 flex flex-col text-center text-white justify-center text-center">
+            <div class="absolute max-w-md top-20 right-0 left-0 align-center mx-auto ">
+              <div >
+                <h1 class="text-3xl"><b><span class="text-amber-300">Kia ora</span>, New Zealand</b></h1>
+                <p class="text py-2 max-w-64 m-auto">Make money sharing your car, or save money renting a car on Drive mate. Up to 30% cheaper than traditional car rental companies.</p></b>
+              </div>
+              <div class="form_section rounded-t-lg bg-slate-100 md:p-5 md:px-8 p-2 px-0">
+                <form action="">  
+                  <input class="text rounded-full md:w-60 w-48 p-2 outline-none focus:outline:none" type="text" placeholder="Enter your email">
+                  <button class="header_button rounded-full md:px-2 md:pb-1 px-2 bg-amber-300 "><span class="text">Signup Now</span></button>
+                </form>  
+              </div>
+              <p class="bg-cyan-500 text rounded-b-lg py-1">Our first 500 mates get a $20 credit on their account. Signup Now</p>
+              <div class="grid md:grid-cols-3 grid-cols-1 md:gap-5 gap-2 md:max-w-screen-sm max-w-36 m-auto text text-black md:pt-6 pt-3">
+                <div class="flex md:h-2 h-1.5">
+                  <span class="pe-2">Approved by</span>
+                  <img src="assets/images/feature-logos/image 12.png" alt="#" class="w-16">
+                </div>
+                <div class="flex md:h-2 h-1.5">
+                  <span class="pe-2">Rated 4.7/5.0 in </span>
+                  <img src="assets/images/feature-logos/image 12.png" alt="#" class="w-16">
+                </div>
+                <div class="flex md:h-2 h-1.5">
+                  <span class="pe-2">Insured by</span>
+                  <img src="assets/images/feature-logos/image 12.png" alt="" class="w-16">
+                </div>
+               </div>
           </div>
-        </div>
-        <div class="form_section h-16 w-9/12 rounded-t-lg bg-slate-100 m-auto mt-4">
-          <form action="" class="p-4">  
-            <input class="text rounded-full p-2 md:w-64 w-24" type="text" placeholder="Enter your email">
-            <button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button>
-          </form>
-          <p class="bg-cyan-500 text rounded-b-lg">Our first 500 mates get a $20 credit on their account. Signup Now</p>
-        </div>
+        </div>     
       </div>
-    </div>
-    <div class="header_logo_section relative md:block flex">
-     <div class="grid md:grid-cols-3 grid-cols-1 gap-4 text md:w-96 mt-10 m-auto mt-24">
-      <div>
-        <span>Approved by</span>
-        <img src="assets/images/feature-logos/image 12.png" alt="#" class="w-16">
-      </div>
-      <div >
-        <span >Rated 4.7/5.0 in </span>
-        <img src="assets/images/feature-logos/image 12.png" alt="#" class="w-16">
-      </div>
-      <div>
-        <span >Insured by</span>
-        <img src="assets/images/feature-logos/image 12.png" alt="" class="w-16">
-      </div>
-     </div>
     </div>
   </section>
 
@@ -99,15 +99,15 @@
 
   <!-- signup section -->
   <section class="signup text-white">
-    <div class="container">
+    <div class="">
       <div class="bg-cyan-500 md:h-48 h-auto">
        <div class="grid md:grid-cols-2 md:gap-x-6 grid-cols-1">
         <div class="">
-          <div class="pt-6 ps-8">
+          <div class="md:pt-6 ps-12 pt-2 pb-1 ">
             <b><h1>Skip the car rental counter,</h1>
               <h1> Hit The Road.</h1>
              </b>
-             <div class="text m-2">
+             <div class="text md:py-0 py-2">
                <ul class="grid md:grid-cols-2 md:gap-x-8 ms:gap-y-1 md:my-3 grid-cols-1">
                  <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i>100s of cars to choose from</li>
                  <li><i class="fa-regular fa-circle-check text-yellow-400 me-1"></i>Safe, sanitised and fully insured</li>
@@ -122,7 +122,7 @@
           </div>
          </div>
          <div class="md:absolute md:right-0 ">
-           <img class="w-64 max-h-48	" src="assets/images/signup-image.png" alt="">
+           <img class="w-64 max-h-48 md:block sm:block hidden" src="assets/images/signup-image.png" alt="">
          </div>
        </div>
       </div>
@@ -132,18 +132,18 @@
 
   <!-- drivemate section -->
   <section class="drive_mate mx-4">
-    <div class="container m-auto">
+    <div class="mx-8 m-auto">
       <div class="text-center my-7">
         <h1 class="mb-2"><b>#LoveDrivemate</b></h1>
         <p class="text">See what our mates across the ditch have to say!</p>
       </div>
   
-        <div class="grid md:grid-cols-4 grid-cols-1">
-          <div class=" m-auto w-36 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="grid md:grid-cols-4 gap-6 grid-cols-1">
+          <div class=" m-auto max-w-xs  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489.png" alt="" />
               </a>
-              <div class="text-white p-2 text-center text">
+              <div class="text-white p-2 text-center text rounded-b-lg bg-cyan-500">
                 <p class="text mb-3 font-normal">Drive lah is a safe, easy and convenient platform in Singapore. Thanks Drive lah!</p>
                 <div>
                   <p>Ben Chan</p>
@@ -153,11 +153,11 @@
                 </div>
               </div>
           </div>
-          <div class="m-auto w-36 relative top-6 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div class="m-auto relative top-6 max-w-xs  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489-1.png" alt="" />
               </a>
-              <div class="text-white p-2 text-center text">
+              <div class="text-white p-2 bg-cyan-500 text-center rounded-b-lg text">
                 <p class="text mb-3 font-normal">Convenient way to rent car with insurance covered. Hassle free!</p>
                 <div>
                   <p>Jonathan Lai</p>
@@ -167,11 +167,11 @@
                 </div>
                 </div>
           </div>
-          <div class="m-auto w-36 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div class="m-auto max-w-xs relative md:top-0 top-6 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
               <a href="#">
                   <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489-2.png" alt="" />
               </a>
-              <div class="text-white p-2 text-center text">
+              <div class="text-white p-2 bg-cyan-500 text-center rounded-b-lg text">
                   <p class="text mb-3 font-normal">The Drive lah team makes the experience of car-sharing relatively stress-free.</p>
                   <div>
                     <p>Shareen Tan</p>
@@ -181,11 +181,11 @@
                   </div>
               </div>
           </div>
-          <div class="m-auto w-36 relative top-6 max-w-sm bg-cyan-500 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div class="m-auto relative top-6 max-w-xs  border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="assets/images/cards-image/Rectangle 33489-3.png" alt="" />
             </a>
-            <div class="text-white p-2 text-center text">
+            <div class="text-white p-2 bg-cyan-500 text-center text rounded-b-lg">
                   <p class=" mb-3">Drive lah is committed on building trust within the community it serves.</p>
                   <div>
                     <p>Even Lim</p>
@@ -201,18 +201,18 @@
   <!-- drivemate section -->
 
   <!-- get started -->
-   <div class="container m-auto">
-    <section class="get_started mt-20 ">
-      <div class="grid md:grid-cols-2 grid-cols-1 text-white ">
-        <div class="m-auto get_started_right h-48 min-w-80 w-2/4 bg-no-repeat bg-cover rounded-md">
-          <div class="mt-4 mx-3">
+  <section class="get_started mt-20 bg-slate-100 pt-7">
+      <div class="mx-8 m-auto">
+      <div class="grid md:grid-cols-2 gap-2 grid-cols-1 text-white ">
+        <div class="m-auto h-48 w-full bg-no-repeat bg-cover rounded-md" style=" background-image: url('../../assets/images/footer-cards/footer1.png');">
+          <div class="mt-4 ms-3">
             <h5><b>Rent a car</b></h5>
-            <p class="text my-3 max-w-48">Down the street or across the country, find the perfect vehicle for your next adventure.</p>
+            <p class="text md:my-3 max-w-48">Down the street or across the country, find the perfect vehicle for your next adventure.</p>
             <button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button>
           </div>
         </div>
-        <div class="m-auto get_started_left h-48 min-w-80 bg-no-repeat bg-cover rounded-md">
-          <div class="md:mt-4 md:mx-3 mt-4">
+        <div class="m-auto h-48 w-full bg-no-repeat bg-cover rounded-md" style="background-image: url('../../assets/images/footer-cards/footer2.png');">
+          <div class="md:mt-4 mt-4 ms-3">
             <h5><b>List your car</b></h5>
           <p class="text max-w-48 my-3">Accelerate your entrepreneurship and start building a small car sharing business on Drive lah</p>
           <button class="header_button rounded-full bg-amber-300 w-16 pb-1"><span class="text">Signup Now</span></button>
@@ -226,7 +226,7 @@
   <!-- footer -->
    <footer>
       <div class="flex md:px-8 md:py-2 md:mt-3 bg-cyan-500 relative bottom-0">
-          <div><img src="assets/images/1.png" alt="" class="w-16 m-2"></div>
+          <div><img src="assets/images/1.png" alt="" class="w-16 my-2"></div>
           <div class="pt-1"><span class="text text-white "><i class="fa-regular fa-copyright me-1"></i>Drivemate 2024</span></div>
       </div>
    </footer>
