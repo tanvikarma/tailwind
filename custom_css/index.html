@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Page</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header id="navbar">
+        <div class="container">
+            <div class="wrapper">
+               <div class="logo">LOGO</div>
+               <div class="signup" ><button class="btn" onclick="hello()">Signup Now</button></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="psudo_saction">
+            <div class="form_wrapper" id="on">
+                <div class="close">
+                    <button onclick="cross()"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <h1>Pre register for <span>Drive mate</span></h1>
+                <p>We will add you to our mailing list and you will be among the first to know once we launch in New Zealand! Looking forward to hosting you soon.</p>       
+                <div class="form_content" >
+                    <form action="">
+                        <div class="form_body">
+                            <div class="first_row">
+                                <div class="input_group">
+                                    <input type="text" placeholder="">
+                                    <label for="firstname">First Name</label>
+                                </div>
+                                <div class="input_group">
+                                    <input type="text" placeholder="">
+                                    <label for="lastname">Last Name</label>
+                                </div>
+                            </div>
+                                <div class="input_group width">
+                                    <input type="email" placeholder="">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input_group width">
+                                    <input type="number" placeholder="">
+                                    <label for="number">Number</label>
+                                </div>
+                                <div class="input_group width">
+                                    <button class="button">signup</button>
+                                    <!-- <input type="button" value="Sign Up" class="button"> -->
+                                </div>
+                        </div>
+                    </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
